@@ -205,7 +205,14 @@ Use pretrained weight or your trained weight
 ## Reference
 
 Reference to cite when you use PTL in a research paper:
-**TODO**
+
+    @inproceedings{yu2019ptl,
+      title={Progressive Transfer Learning for Person Re-identification},
+      author={Zhengxu Yu, Zhongming Jin, Long Wei, Jishun Guo, Jianqiang Huang, Deng Cai, Xiaofei He, Xian-Sheng Hua},
+      booktitle={International Joint Conference on Artificial Intelligence},
+      volume={2019},
+      year={2019},
+      }
 
 ## License
 PTL is MIT-licensed.
