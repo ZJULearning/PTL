@@ -4,7 +4,7 @@
 PTL is a model fine-tuning method for deep neural networks. 
 It provides an efficient solution for the model fine-tuning task, and can improve the performance of the pre-trained model on the target dataset significantly.
 
-This project is the implementation of the Batch-related Convolutional Cell (**BConv-Cell**) and the **MGN_PTL** network of our IJCAI-2019 paper - [Progressive Transfer Learning for Person Re-identification](TODO).
+This project is the implementation of the Batch-related Convolutional Cell (**BConv-Cell**) and the **MGN_PTL** network of our IJCAI-2019 paper - [Progressive Transfer Learning for Person Re-identification](https://www.ijcai.org/proceedings/2019/586).
 
 PTL method has been used by the CityBrain Group (Damo Academy, Alibaba Group) to help improve the model performance when using the pre-trained ReID models in a newly emerged scenario.
 
@@ -206,13 +206,19 @@ Use pretrained weight or your trained weight
 
 Reference to cite when you use PTL in a research paper:
 
-    @inproceedings{yu2019ptl,
-      title={Progressive Transfer Learning for Person Re-identification},
-      author={Zhengxu Yu, Zhongming Jin, Long Wei, Jishun Guo, Jianqiang Huang, Deng Cai, Xiaofei He, Xian-Sheng Hua},
-      booktitle={International Joint Conference on Artificial Intelligence},
-      volume={2019},
-      year={2019},
+
+    @inproceedings{ijcai2019-586,
+      title     = {Progressive Transfer Learning for Person Re-identification},
+      author    = {Yu, Zhengxu and Jin, Zhongming and Wei, Long and Guo, Jishun and Huang, Jianqiang and Cai, Deng and He, Xiaofei and Hua, Xian-Sheng},
+      booktitle = {Proceedings of the Twenty-Eighth International Joint Conference on Artificial Intelligence, {IJCAI-19}},
+      publisher = {International Joint Conferences on Artificial Intelligence Organization},             
+      pages     = {4220--4226},
+      year      = {2019},
+      month     = {7},
+      doi       = {10.24963/ijcai.2019/586},
+      url       = {https://doi.org/10.24963/ijcai.2019/586},
       }
+
 
 ## License
 PTL is MIT-licensed.
